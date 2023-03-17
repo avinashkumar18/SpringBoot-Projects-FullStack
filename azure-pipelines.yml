@@ -1,5 +1,6 @@
 # Maven
 
+
 # Build your Java project and run tests with Apache Maven.
 # Add steps that analyze code, save build artifacts, deploy, and more:
 # https://docs.microsoft.com/azure/devops/pipelines/languages/java
@@ -21,3 +22,7 @@ steps:
     publishJUnitResults: true
     testResultsFiles: '**/surefire-reports/TEST-*.xml'
     goals: 'package'
+- task: PrivateStackSharePipeline@1
+  inputs:
+    stackshareAzureToken: '8a8b0b7d3ff958d902b6c9952604dc7d'
+    installOnMultipleRepos: true  
