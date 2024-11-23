@@ -44,7 +44,7 @@
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-data-mongodb</artifactId>
-            <version>2.4.2</version>
+            <version>3.2.11</version>
         </dependency>
         <dependency>
             <groupId>com.google.code.gson</groupId>
@@ -75,7 +75,7 @@
         <dependency>
             <groupId>org.springframework</groupId>
             <artifactId>spring-jms</artifactId>
-            <version>5.2.13.RELEASE</version>
+            <version>6.1.14</version>
         </dependency>
         <!-- https://mvnrepository.com/artifact/org.apache.activemq/activemq-core -->
         <dependency>
